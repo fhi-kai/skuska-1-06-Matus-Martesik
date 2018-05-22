@@ -7,9 +7,9 @@ public class spolocnaCislica {
         int c = druhe / 10;
         int d = druhe % 10;
 
-        if ((a == b) || (a == c) || (a == d))
+        if ((a == c) || (a == d))
             return true;
-        else if (b == c || b == d || c == d)
+        else if (c == a || c == b)
             return true;
 
         else return false;
